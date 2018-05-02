@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- For Bootstrap responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Le Wagon HTML/CSS workshop</title>
+
+    <link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+  <div class="banner-content">
+    <h1>Web development crash course</h1>
+    <p>Learn HTML and CSS with Le Wagon</p>
+    <p><img src="https://tgenaitay.github.io/workshop-landing-donghua/images/QRCodeLeWagon.gif" width="150" height="150" /></p>
+    <p>Join us in WeChat</p>
+  </div>
+</div>
+
+
+
+
+<div class="container-fluid readme">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <section class="readme-section">
+        <h2 class="readme-header">0. Welcome aboard!</h2>
+        <ul>
+          <li>Please install <a href="https://www.sublimetext.com/">SublimeText</a> now. It's free.</li>
+          <li>Programmers do not use Word or PPT, they need a text editor for code, markup and way more...</li>
+          <li>Let's make your first web page, like the examples below. Go Go Go!!
+          <div><a href="http://lewagon.github.io/html-css-challenges/04-advanced-selectors/">👉Example #1: Personal page</a></div>
+          <div><a href="https://tgenaitay.github.io/xnode-landing/">👉Example #2: Business landing page</a></div>
+          </li>
+        </ul>
+      </section>
+      <section class="readme-section">
+        <h2 class="readme-header">1. Let's set up</h2>
+        <ol>
+          <li>Start Sublime Text. It will open a new black window.</li>
+          <li>Create a <strong>folder</strong> <code>landing</code> on your Desktop. Drag & drop this folder in the Sublime Text window.</li>
+          <li>
+            In Sublime Text left navigation:
+            <ul>
+              <li>Right click <strong>"New file"</strong></li>
+              <li>Save it as <code>index.html</code> with <strong>Cmd + S</strong> or <strong>Ctrl + S</strong></li>
+              <li>Do the same to create a <code>style.css</code> file</li>
+              <li>Then <strong>"New Folder"</strong> and create an <code>images</code> folder</li>
+            </ul>
+            </ul>
+          </li>
+          <li>Finally double click on <code>index.html</code> to open it with Chrome</li>
+        </ol>
+
+        <img src='images/setup.png' width="100%"/>
+      </section>
+
+      <section class="readme-section">
+        <h2 class="readme-header">2. Add some HTML content</h2>
+        <ul>
+          <li>
+            To save time, just right-click on the following images and save them in your <code>images</code> folder
+            <ul class="list-inline features">
+              <li><img src="images/open.png" alt=""></li>
+              <li><img src="images/meeting.png" alt=""></li>
+              <li><img src="images/office.png" alt=""></li>
+              <li><img src="images/event.png" alt=""></li>
+            </ul>
+          </li>
+          <li>Then start with this HTML code in <code>index.html</code></li>
+        </ul>
+<pre class="highlight html"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Donghua playground landing<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Donghua is so much more than a university<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>This is also a place to learn to code..<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;h2&gt;</span>Open seats<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A very, <span class="nt">&lt;strong&gt;</span>very<span class="nt">&lt;/strong&gt;</span> open space<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/open.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;h2&gt;</span>Meetings<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A meeting place <span class="nt">&lt;strong&gt;</span>for your business<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/meeting.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;h2&gt;</span>Offices<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A workspace <span class="nt">&lt;strong&gt;</span>to rent<span class="nt">&lt;/strong&gt;</span> for your team<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/office.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;h2&gt;</span>Events<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A cool space <span class="nt">&lt;strong&gt;</span>to run your events<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/event.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;p&gt;</span>This is a playground landing ©Le Wagon<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+        <h3>Go further at home</h3>
+        <ul>
+          <li>You can pick your icons on <a href="https://thenounproject.com/" target="_blank">The Noun Project</a> or <a href="http://iconmonstr.com/" target="_blank">IconMonstr</a>.</li>
+          <li><strong>Tips</strong>: Also stay tuned checking <a href="https://www.producthunt.com/search?q=icons" target="_blank">icon resources on Product Hunt</a></li>
+        </ul>
+      </section>
+
+      <section class="readme-section">
+        <h2 class="readme-header">3. CSS for fonts & colors</h2>
+        <p>Link your stylesheet <code>style.css</code> in the <code>head</code> section of your HTML</p>
+
+
+<pre class="highlight html"><code><span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">'style.css'</span> <span class="na">rel=</span><span class="s">'stylesheet'</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+</code></pre>
+        <p>Then copy/paste the CSS code below in <code>style.css</code> and <strong>fix it</strong> cause it's ugly</p>
+        <ul>
+          <li>For fonts use <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> (Requires VPN) - Google now directly serves the css and font files from Google’s servers <strong>in Beijing</strong>, which means Google Fonts are much more stable and faster to users in China now.</li>
+          <li>For colors use <a href="http://www.colorzilla.com/chrome/" target="_blank">Colorzilla Chrome plugin</a> to pick colors from other websites</li>
+          <li>You can also find beautiful colors on <a href="https://coolors.co/" target="_blank">Coolors</a> or <a href="http://colorhunt.co/" target="_blank">Color Hunt</a></li>
+        </ul>
+<pre class="highlight css"><code><span class="c">/* style.css */</span>
+<span class="nt">body</span><span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">245</span><span class="p">,</span><span class="m">245</span><span class="p">,</span><span class="m">245</span><span class="p">);</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">25px</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Helvetica</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">h1</span><span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Courier</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">lighter</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">h2</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Courier</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">lighter</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">8px</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">a</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">yellow</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">purple</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+      </section>
+      <section class="readme-section">
+        <h2 class="readme-header">4. Wrap with <code>div</code></h2>
+        <p>Wrap different sections in different <code>div</code></p>
+
+<pre class="highlight html"><code>  <span class="c">&lt;!-- header --&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Donghua is so much more than a university<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>This is also a place to learn to code..<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="c">&lt;!-- features --&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Open seats<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A very, <span class="nt">&lt;strong&gt;</span>very<span class="nt">&lt;/strong&gt;</span> open space<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/open.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Meetings<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A meeting place <span class="nt">&lt;strong&gt;</span>for your business<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/meeting.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Offices<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A workspace <span class="nt">&lt;strong&gt;</span>to rent<span class="nt">&lt;/strong&gt;</span> for your team<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/office.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Events<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span>A cool space <span class="nt">&lt;strong&gt;</span>to run your events<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/event.png"</span> <span class="na">alt=</span><span class="s">"picture description"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="c">&lt;!-- footer --&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;p&gt;</span>This is a playground landing ©Le Wagon<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+</code></pre>
+
+      </section>
+      <section class="readme-section">
+        <h2 class="readme-header">5. Name your tags</h2>
+        <ul>
+          <li>Name your header and footer with <code>ids</code> like <code>id="header"</code> and <code>id="footer"</code></li>
+          <li>Name your features with <code>classes</code> like <code>class="card"</code></li>
+          <li>Then add this nice CSS code to your stylesheet</li>
+        </ul>
+<pre class="highlight css"><code><span class="nf">#header</span><span class="p">{</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url("https://kitt.lewagon.com/placeholder/cities/shanghai")</span><span class="p">;</span>
+  <span class="nl">background-size</span><span class="p">:</span> <span class="n">cover</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">150px</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+  <span class="nl">text-shadow</span><span class="p">:</span> <span class="m">1px</span> <span class="m">1px</span> <span class="m">5px</span> <span class="no">black</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card</span><span class="p">{</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">50px</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">lighter</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#footer</span><span class="p">{</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">30</span><span class="p">,</span> <span class="m">30</span><span class="p">,</span> <span class="m">30</span><span class="p">);</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">lightgrey</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+      </section>
+      <section class="readme-section">
+        <h2 class="readme-header">6. Fontawesome</h2>
+        <p>In your <code>head</code>, it's in your <code>head</code>!</p>
+<pre class="highlight html"><code><span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://apps.bdimg.com/libs/fontawesome/4.1.0/css/font-awesome.min.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+</code></pre>
+        <p>And then in the footer</p>
+<pre class="highlight html"><code><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-weibo"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-weixin"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-github"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre>
+        <p>With a bit of CSS style</p>
+<pre class="highlight css"><code><span class="nf">#footer</span> <span class="nt">a</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">lightgrey</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">15px</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nf">#footer</span> <span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+      </section>
+<section class="readme-section">
+        <h2 class="readme-header">7. Have fun with HTML&CSS!</h2>
+        <ul>
+          <li>We recommend you continue back home and <a href="https://www.codecademy.com/learn/learn-html-css">complete this free 101 course</a></li>
+          <li>Tell us what you think! <a href="https://lewagonshanghai.typeform.com/to/pCKgzg">Fill in this feedback form</a> (2minutes only)</li>
+          <li>Want to learn much more, fast? <a href="https://www.lewagon.com/apply/shanghai">Applications start here</a></li>
+          <li>If you appreciate this workshop, <a href="http://www.meetup.com/Le-Wagon-Shanghai-Coding-Station/">leave us a review on meetup!</a>♥</li>
+          <li>Any question: <a href="mailto:shanghai@lewagon.org">get in touch</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>
+
+  </body>
+
+</html>
