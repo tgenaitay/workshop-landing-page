@@ -12,6 +12,6 @@
 
 More in WeChat:
 
-![QRcode](https://tgenaitay.github.io/workshop-landing-donghua/images/QRCodeLeWagon.gif)
+![QRcode](https://raw.githubusercontent.com/tgenaitay/workshop-landing-donghua/gh-pages/images/QRCodeLeWagon.gif)
 
 
