@@ -8,7 +8,17 @@ title: Le Wagon HTML/CSS workshop
 <div class="container-fluid readme">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-
+      <section class="readme-section">
+        <h2 class="readme-header">0. Welcome aboard!</h2>
+        <ul>
+          <li>Please install <a href="https://www.sublimetext.com/">SublimeText</a> now. It's free.</li>
+          <li>Programmers do not use Word or PPT, they need a text editor for code, markup and way more...</li>
+          <li>Let's make your first web page, like the examples below. Go Go Go!!
+          <div><a href="http://lewagon.github.io/html-css-challenges/04-advanced-selectors/">👉Example #1: Personal page</a></div>
+          <div><a href="https://tgenaitay.github.io/xnode-landing/">👉Example #2: Business landing page</a></div>
+          </li>
+        </ul>
+      </section>
       <section class="readme-section">
         <h2 class="readme-header">1. Let's set up</h2>
         <ol>
@@ -38,11 +48,11 @@ title: Le Wagon HTML/CSS workshop
             <ul class="list-inline features">
               <li><img src="images/open.png" alt=""></li>
               <li><img src="images/meeting.png" alt=""></li>
-              <li><img src="images/offices.png" alt=""></li>
-              <li><img src="images/events.png" alt=""></li>
+              <li><img src="images/office.png" alt=""></li>
+              <li><img src="images/event.png" alt=""></li>
             </ul>
           </li>
-          <li>Then start with this HTML code in <code>playground.html</code></li>
+          <li>Then start with this HTML code in <code>index.html</code></li>
         </ul>
 <% code("html") do %>
 <html>
@@ -64,11 +74,11 @@ title: Le Wagon HTML/CSS workshop
 
     <h2>Offices</h2>
     <p>A workspace <strong>to rent</strong> for your team</p>
-    <img src="images/heart.svg" alt="picture description">
+    <img src="images/office.png" alt="picture description">
 
     <h2>Events</h2>
     <p>A cool space <strong>to run your events</strong></p>
-    <img src="images/offices.png" alt="picture description">
+    <img src="images/event.png" alt="picture description">
 
     <p>This is a playground landing ©Le Wagon</p>
   </body>
@@ -131,47 +141,45 @@ a:hover {
         <p>Wrap different sections in different <code>div</code></p>
 
 <% code("html") do %>
-<div>
-  <h1>My playground app</h1>
-  <p>This is the important line everyone reads..</p>
-</div>
-
-<div>
-  <h2>Fast</h2>
-  <p>A fast app, <strong>very fast</strong> app</p>
-  <img src="images/briefcase.svg" alt="picture description">
-</div>
-
-<div>
-  <h2>Simple</h2>
-  <p>A simple app, <strong>very simple</strong> app</p>
-  <img src="images/diamond.svg" alt="picture description">
-</div>
-
-<div>
-  <h2>Awesome</h2>
-  <p>An awesome app, <strong>very awesome</strong> app</p>
-  <img src="images/heart.svg" alt="picture description">
-</div>
-
-<div>
-  <h2>Beautiful</h2>
-  <p>A beautiful app, <strong>very beautiful</strong> app</p>
-  <img src="images/laptop.svg" alt="picture description">
-</div>
-
-<div>
-  <p>This is a playground landing ©Le Wagon</p>
-</div>
+  <!-- header -->
+  <div>
+    <h1>Donghua is so much more than a university</h1>
+    <p>This is also a place to learn to code..</p>
+  </div>
+  <!-- features -->
+  <div>
+    <h2>Open seats</h2>
+    <p>A very, <strong>very</strong> open space</p>
+    <img src="images/open.png" alt="picture description">
+  </div>
+  <div>
+    <h2>Meetings</h2>
+    <p>A meeting place <strong>for your business</strong></p>
+    <img src="images/meeting.png" alt="picture description">
+  </div>
+  <div>
+    <h2>Offices</h2>
+    <p>A workspace <strong>to rent</strong> for your team</p>
+    <img src="images/office.png" alt="picture description">
+  </div>
+  <div>
+    <h2>Events</h2>
+    <p>A cool space <strong>to run your events</strong></p>
+    <img src="images/event.png" alt="picture description">
+  </div>
+  <!-- footer -->
+  <div>
+    <p>This is a playground landing ©Le Wagon</p>
+  </div>
 <% end %>
 
       </section>
       <section class="readme-section">
         <h2 class="readme-header">5. Name your tags</h2>
         <ul>
-          <li>Name your header and footer with <code>id</code> like <code>&lt;div id="header"&gt;</code> and <code>&lt;div id="footer"&gt;</code></li>
-          <li>Name your features with <code>class</code> like <code>&lt;div class="card"&gt;</code></li>
-          <li>Then add this nice CSS code</li>
+          <li>Name your header and footer with <code>ids</code> like <code>id="header"</code> and <code>id="footer"</code></li>
+          <li>Name your features with <code>classes</code> like <code>class="card"</code></li>
+          <li>Then add this nice CSS code to your stylesheet</li>
         </ul>
 <% code("css") do %>
 #header{
@@ -222,6 +230,16 @@ a:hover {
   color: white;
 }
 <% end %>
+      </section>
+<section class="readme-section">
+        <h2 class="readme-header">7. Have fun with HTML&CSS!</h2>
+        <ul>
+          <li>We recommend you continue back home and <a href="https://www.codecademy.com/learn/learn-html-css">complete this free 101 course</a></li>
+          <li>Tell us what you think! <a href="https://lewagonshanghai.typeform.com/to/pCKgzg">Fill in this feedback form</a> (2minutes only)</li>
+          <li>Want to learn much more, fast? <a href="https://www.lewagon.com/apply/shanghai">Applications start here</a></li>
+          <li>If you appreciate this workshop, <a href="http://www.meetup.com/Le-Wagon-Shanghai-Coding-Station/">leave us a review on meetup!</a>♥</li>
+          <li>Any question: <a href="mailto:shanghai@lewagon.org">get in touch</a></li>
+        </ul>
       </section>
     </div>
   </div>

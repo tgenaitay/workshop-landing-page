@@ -36,7 +36,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.7)
+    eventmachine (1.2.6)
     execjs (2.5.2)
     ffi (1.9.10)
     font-awesome-sass (4.2.2)
@@ -51,7 +51,7 @@ GEM
     i18n (0.7.0)
     jquery-middleman (3.1.2)
       thor (>= 0.14, < 2.0)
-    json (1.8.3)
+    json (2.1.0)
     kramdown (1.8.0)
     listen (2.10.1)
       celluloid (~> 0.16.0)
@@ -147,7 +147,7 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    yajl-ruby (1.2.1)
+    yajl-ruby (1.4.0)
 
 PLATFORMS
   ruby
