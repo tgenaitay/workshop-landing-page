@@ -9316,274 +9316,274 @@ button.close {
  * GitHub style for Pygments
  * Courtesy of GitHub.com
  */
-/* line 7, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 7, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .hll {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
   padding: 6px 10px;
   border-radius: 3px; }
 
-/* line 8, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 8, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .c {
   color: #999988;
   font-style: italic; }
 
-/* line 9, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 9, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .err {
   color: #a61717;
   background-color: #e3d2d2; }
 
-/* line 10, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 10, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .k {
   font-weight: bold; }
 
-/* line 11, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 11, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .o {
   font-weight: bold; }
 
-/* line 12, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 12, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .cm {
   color: #999988;
   font-style: italic; }
 
-/* line 13, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 13, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .cp {
   color: #999999;
   font-weight: bold; }
 
-/* line 14, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 14, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .c1 {
   color: #999988;
   font-style: italic; }
 
-/* line 15, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 15, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .cs {
   color: #999999;
   font-weight: bold;
   font-style: italic; }
 
-/* line 16, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 16, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gd {
   color: #000000;
   background-color: #ffdddd; }
 
-/* line 17, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 17, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gd .x {
   color: #000000;
   background-color: #ffaaaa; }
 
-/* line 18, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 18, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .ge {
   font-style: italic; }
 
-/* line 19, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 19, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gr {
   color: #aa0000; }
 
-/* line 20, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 20, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gh {
   color: #999999; }
 
-/* line 21, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 21, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gi {
   color: #000000;
   background-color: #ddffdd; }
 
-/* line 22, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 22, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gi .x {
   color: #000000;
   background-color: #aaffaa; }
 
-/* line 23, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 23, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .go {
   color: #888888; }
 
-/* line 24, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 24, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gp {
   color: #555555; }
 
-/* line 25, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 25, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gs {
   font-weight: bold; }
 
-/* line 26, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 26, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gu {
   color: #800080;
   font-weight: bold; }
 
-/* line 27, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 27, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gt {
   color: #aa0000; }
 
-/* line 28, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 28, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .kc {
   font-weight: bold; }
 
-/* line 29, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 29, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .kd {
   font-weight: bold; }
 
-/* line 30, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 30, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .kn {
   font-weight: bold; }
 
-/* line 31, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 31, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .kp {
   font-weight: bold; }
 
-/* line 32, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 32, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .kr {
   font-weight: bold; }
 
-/* line 33, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 33, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .kt {
   color: #445588;
   font-weight: bold; }
 
-/* line 34, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 34, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .m {
   color: #009999; }
 
-/* line 35, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 35, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .s {
   color: #dd1144; }
 
-/* line 36, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 36, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .n {
   color: #333333; }
 
-/* line 37, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 37, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .na {
   color: teal; }
 
-/* line 38, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 38, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .nb {
   color: #0086b3; }
 
-/* line 39, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 39, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .nc {
   color: #445588;
   font-weight: bold; }
 
-/* line 40, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 40, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .no {
   color: teal; }
 
-/* line 41, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 41, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .ni {
   color: purple; }
 
-/* line 42, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 42, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .ne {
   color: #990000;
   font-weight: bold; }
 
-/* line 43, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 43, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .nf {
   color: #990000;
   font-weight: bold; }
 
-/* line 44, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 44, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .nn {
   color: #555555; }
 
-/* line 45, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 45, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .nt {
   color: navy; }
 
-/* line 46, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 46, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .nv {
   color: teal; }
 
-/* line 47, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 47, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .ow {
   font-weight: bold; }
 
-/* line 48, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 48, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .w {
   color: #bbbbbb; }
 
-/* line 49, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 49, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .mf {
   color: #009999; }
 
-/* line 50, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 50, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .mh {
   color: #009999; }
 
-/* line 51, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 51, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .mi {
   color: #009999; }
 
-/* line 52, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 52, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .mo {
   color: #009999; }
 
-/* line 53, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 53, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .sb {
   color: #dd1144; }
 
-/* line 54, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 54, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .sc {
   color: #dd1144; }
 
-/* line 55, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 55, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .sd {
   color: #dd1144; }
 
-/* line 56, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 56, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .s2 {
   color: #dd1144; }
 
-/* line 57, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 57, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .se {
   color: #dd1144; }
 
-/* line 58, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 58, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .sh {
   color: #dd1144; }
 
-/* line 59, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 59, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .si {
   color: #dd1144; }
 
-/* line 60, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 60, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .sx {
   color: #dd1144; }
 
-/* line 61, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 61, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .sr {
   color: #009926; }
 
-/* line 62, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 62, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .s1 {
   color: #dd1144; }
 
-/* line 63, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 63, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .ss {
   color: #990073; }
 
-/* line 64, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 64, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .bp {
   color: #999999; }
 
-/* line 65, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 65, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .vc {
   color: teal; }
 
-/* line 66, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 66, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .vg {
   color: teal; }
 
-/* line 67, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 67, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .vi {
   color: teal; }
 
-/* line 68, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 68, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .il {
   color: #009999; }
 
-/* line 69, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_pygments.css.scss */
+/* line 69, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_pygments.css.scss */
 .gc {
   color: #999;
   background-color: #EAF2F5; }
@@ -9593,50 +9593,50 @@ button.close {
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 9, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_utilities.css.scss */
+/* line 9, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 5em;
   padding-bottom: 5em; }
 
-/* line 15, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_utilities.css.scss */
+/* line 15, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_utilities.css.scss */
 .bg-text {
   background: #4a4a4a; }
 
-/* line 18, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_utilities.css.scss */
+/* line 18, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_utilities.css.scss */
 .bg-email {
   background: #aeaeae; }
 
-/* line 21, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_utilities.css.scss */
+/* line 21, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_utilities.css.scss */
 .bg-twitter {
   background: #00a3e1; }
 
-/* line 24, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/layout/_utilities.css.scss */
+/* line 24, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/layout/_utilities.css.scss */
 .bg-facebook {
   background: #3b5998; }
 
-/* line 1, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+/* line 1, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
 .readme {
   font-size: 18px; }
-  /* line 3, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 3, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme-section {
     background-color: #FAFAFA;
     padding: 20px;
     box-shadow: 1px 1px 3px #F0F0F0;
     position: relative;
     margin: 50px 0; }
-  /* line 11, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 11, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme .download {
     position: absolute;
     right: 20px;
     bottom: 20px; }
-  /* line 17, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 17, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme .features img {
     width: 100px; }
-  /* line 21, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 21, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme pre {
     margin-top: 30px !important;
     margin-bottom: 30px !important; }
-  /* line 28, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 28, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme h1.readme-header, .readme h2.readme-header, .readme h3.readme-header {
     color: #7D7979;
     font-weight: bold;
@@ -9649,22 +9649,22 @@ button.close {
     color: white;
     border-radius: 10px;
     margin-bottom: 20px; }
-  /* line 41, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 41, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme h1.readme-header {
     font-size: 17px; }
-  /* line 44, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 44, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme h2.readme-header {
     font-size: 25px; }
-  /* line 47, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 47, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme h3.readme-header {
     font-size: 25px; }
-  /* line 50, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/pages/_home.css.scss */
+  /* line 50, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/pages/_home.css.scss */
   .readme li {
     font-size: 18px;
     line-height: 30px;
     margin: 5px 0; }
 
-/* line 1, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_banner.scss */
+/* line 1, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_banner.scss */
 .banner {
   color: white;
   text-align: center;
@@ -9675,20 +9675,20 @@ button.close {
   align-items: center;
   justify-content: center; }
 
-/* line 11, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_banner.scss */
+/* line 11, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_banner.scss */
 .banner h1 {
   font-size: 70px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
 
-/* line 16, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_banner.scss */
+/* line 16, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_banner.scss */
 .banner p {
   font-size: 30px;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px; }
 
-/* line 1, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_button.scss */
+/* line 1, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_button.scss */
 .btn-medium {
   color: #999999;
   border: 1px solid #999999;
@@ -9697,13 +9697,13 @@ button.close {
   font-weight: lighter;
   opacity: 0.6; }
 
-/* line 9, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_button.scss */
+/* line 9, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_button.scss */
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
   color: #999999; }
 
-/* line 14, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_button.scss */
+/* line 14, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_button.scss */
 .btn-treehouse {
   color: white;
   padding: 10px 15px;
@@ -9712,7 +9712,7 @@ button.close {
   background: #6AD58B;
   transition: background 0.3s ease; }
 
-/* line 22, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_button.scss */
+/* line 22, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_button.scss */
 .btn-treehouse:hover {
   opacity: 1;
   background: #3ac162;
@@ -9721,7 +9721,7 @@ button.close {
 
 /* Build your own button classes ! */
 /* Headings */
-/* line 4, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_headers.scss */
+/* line 4, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_headers.scss */
 .section-heading {
   color: #bbb;
   font-size: 14px;
@@ -9730,11 +9730,11 @@ button.close {
   margin: 0 0 16px;
   text-transform: uppercase; }
 
-/* line 13, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_headers.scss */
+/* line 13, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_headers.scss */
 .timeline-heading span:first-child {
   font-weight: 700;
   font-size: 17px; }
-/* line 17, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/components/_headers.scss */
+/* line 17, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/components/_headers.scss */
 .timeline-heading span:last-child {
   color: #bbbbbb;
   font-weight: 300;
@@ -9758,7 +9758,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9786,7 +9786,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9814,7 +9814,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9842,7 +9842,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9870,7 +9870,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9904,7 +9904,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9928,7 +9928,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9955,7 +9955,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9981,7 +9981,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -10018,7 +10018,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -10051,7 +10051,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -10081,7 +10081,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -10105,7 +10105,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -10126,7 +10126,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -10147,7 +10147,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -10179,7 +10179,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -10211,7 +10211,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -10243,7 +10243,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;
@@ -10270,6 +10270,6 @@ stretchRight
     transform: scaleX(1.01); }
   100% {
     transform: scaleX(1); } }
-/* line 16, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-donghua/source/stylesheets/all.css.scss */
+/* line 16, /Users/thibaultgenaitay/code/tgenaitay/workshop-landing-page/source/stylesheets/all.css.scss */
 body {
   color: #4C4C4C; }
